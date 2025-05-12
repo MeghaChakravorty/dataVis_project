@@ -18,11 +18,13 @@
     "recharts": "^2.15.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
-    "prebuild": "curl -L \"https://drive.google.com/uc?export=download&id=1Cp9E_0M8o4vsORETK9hRx86BI4lq6fgM\" -o public/stats_data.csv && curl -L \"https://drive.google.com/uc?export=download&id=1l2WPDbMFdRMHzOBN5U7QW4dBtq18OEng\" -o public/bar_chart_data.csv && curl -L \"https://drive.google.com/uc?export=download&id=1gXwFGGea85PCCiX4f8M865wnmYNcuAIL\" -o public/bubble_chart_data.csv && curl -L \"https://drive.google.com/uc?export=download&id=1tmkxdYTdjPR1Lf4dWqchM_cc9gvnOw_S\" -o public/radar_data.csv",
-    "build":    "react-scripts build",
-    "predeploy":"npm run build",
-    "deploy":   "gh-pages -d build"
+    "prebuild": "bash scripts/download_data.sh",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
