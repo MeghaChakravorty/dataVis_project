@@ -24,7 +24,7 @@ const Map = ({ selectedState, setSelectedState, setAllStates }) => {
     const statesG = svg.append('g').attr('id', 'states');
 
     Promise.all([
-      d3.csv('/filtered_usa_data_v2.csv'),
+      d3.csv('/bar_chart_data.csv'),
       d3.json('https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json')
     ]).then(([data, us]) => {
       // count entries
