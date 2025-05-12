@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dataVis_project/static/css/main.b67d2790.css",
+    "main.js": "/dataVis_project/static/js/main.5a12060e.js",
+    "static/js/453.6d34fb87.chunk.js": "/dataVis_project/static/js/453.6d34fb87.chunk.js",
+    "index.html": "/dataVis_project/index.html",
+    "main.b67d2790.css.map": "/dataVis_project/static/css/main.b67d2790.css.map",
+    "main.5a12060e.js.map": "/dataVis_project/static/js/main.5a12060e.js.map",
+    "453.6d34fb87.chunk.js.map": "/dataVis_project/static/js/453.6d34fb87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67d2790.css",
+    "static/js/main.5a12060e.js"
+  ]
+}
